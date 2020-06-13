@@ -8,9 +8,9 @@
 
 VERSION = 1.2.9
 
-QMAKE_COMPILER = gcc
-QMAKE_CC = gcc
-QMAKE_CXX = g++
+#QMAKE_COMPILER = gcc
+#QMAKE_CC = gcc
+#QMAKE_CXX = g++
 
 QT += gui network printsupport
 TARGET = Qt5Pas
