@@ -50,8 +50,8 @@ mac {
   }
 
 contains(PLATFORM, BINUX): {
-  message("Adding x11extras for XOrg platform.")
-  QT += x11extras
+  #  message("Adding x11extras for XOrg platform.")
+  #QT += x11extras
 }
 
 contains(CONFIG, maemo5): {
