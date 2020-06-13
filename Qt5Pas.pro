@@ -170,7 +170,6 @@ HEADERS +=  \
            qdesktopwidget_c.h \
            qdesktopwidget_hook.h \
            qtooltip_c.h \
-           qx11info_x11_c.h \
            qshortcut_c.h \
            qshortcut_hook.h \
            qgesture_c.h \
@@ -448,6 +447,11 @@ HEADERS +=  \
            qtcpserver_hook_c.h \
            qnetworkaccessmanager_hook_c.h \
            qnetworkreply_hook_c.h 
+
+           
+       #           qx11info_x11_c.h 
+
+           
 SOURCES +=  \
            qobject_hook_c.cpp \
            pascalbind.cpp \
@@ -513,7 +517,6 @@ SOURCES +=  \
            qgridlayout_c.cpp \
            qdesktopwidget_c.cpp \
            qtooltip_c.cpp \
-           qx11info_x11_c.cpp \
            qshortcut_c.cpp \
            qgesture_c.cpp \
            qgesturerecognizer_c.cpp \
@@ -728,4 +731,9 @@ SOURCES +=  \
            qtcpserver_hook_c.cpp \
            qnetworkaccessmanager_hook_c.cpp \
            qnetworkreply_hook_c.cpp
+          
+#           qx11info_x11_c.cpp 
+
+          
+           
 # end of file
